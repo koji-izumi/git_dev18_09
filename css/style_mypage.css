@@ -1,0 +1,187 @@
+body {
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #064046;
+    position: fixed;
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.header p,.header a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.search {
+    margin: 0;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+}
+
+.main {
+    padding-top: 70px;
+}
+
+.main,.main-bm,.book-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.book-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 350px;
+}
+
+.book-img img {
+    width: 90%;
+}
+
+.book-info {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.amazon {
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #ff9422;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.amazon:hover {
+    opacity: 0.8;
+}
+
+.book-info-search {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.description {
+    font-size: 12px;
+    text-align: left;
+}
+
+.bookmark {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.edit-main-bm {
+    margin-top: 100px;
+}
+
+
+.textarea {
+    width: 600px;
+    height: 130px;
+}
+
+.delete {
+    margin-left: 30px;
+}
+
+.edit,.delete {
+    font-size: 20px;
+    color: #064046;
+}
+
+.edit:hover,.delete:hover {
+    opacity: 0.8;
+} 
+
+.table {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    line-height: 1.5;
+  }
+
+  table th {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #000000;
+  }
+  table td {
+
+    padding: 10px;
+    vertical-align: top;
+  }
+
+
+.index-main {
+    height: 500px
+}
+
+.index-input {
+    width: 600px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.index-button {
+    width: 50px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.index-title {
+    font-size: 60px;
+}
